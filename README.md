@@ -1,7 +1,5 @@
 #cordova test
-> E.g. Seed project to get started with Famo.us.
-
-[![Build Status](https://travis-ci.org/semateos/cordova-test.svg?branch=master)](https://travis-ci.org/semateos/cordova-test) [![Dependency Status](https://david-dm.org/semateos/cordova-test.svg)](https://david-dm.org/semateos/cordova-test) [![devDependency Status](https://david-dm.org/semateos/cordova-test/dev-status.svg)](https://david-dm.org/semateos/cordova-test#info=devDependencies)
+> E.g. Seed project to get started with Famo.us and Cordova
 
 ##Dependencies
 It is actually quite simple really
@@ -11,7 +9,7 @@ First make sure you have node.js installed... without that nothing works!  You c
 This project relies on grunt-cli, and bower to do all the heavy lifting for you
 
 ```
-npm install -g grunt-cli bower
+npm install -g cordova grunt-cli bower
 ```
 
 ##Getting Started
@@ -34,9 +32,19 @@ You can also change the port livereload is running on with the option ```--liver
 
 If you would like to have your server be accessible to other devices on your local machine use the option ```--hostname=0.0.0.0```
 
+##Build to iOS
+```
+grunt native
+```
+
+Then, in XCode, open ```platforms/ios/Geo.xcodeproj``` and click the run button.
+
+
 ##Production
 
 If you would like to compile your project for distribution simply run the command ```grunt``` to build ```dist/``` which will be a deployment ready version of your app.  Preprocessing will be applied to html, all js will be concatenated and minified.  All js / css assets will also have their name prepended with a hash for cache busting.
+
+
 
 ##Why are styles so strict?
 
