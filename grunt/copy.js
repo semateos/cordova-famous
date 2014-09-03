@@ -10,6 +10,7 @@ module.exports = {
         'content/**/**.*',
         '.htaccess',
         'images/{,*/}*.webp',
+        'img/**.*',
         // '{,*/}*.html',
         'styles/fonts/{,*/}*.*'
       ]

@@ -1,18 +1,19 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Cordova test</title>
+        <title>famo.us App</title>
         <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+
         
         <!-- build:css(app/) css/famous.css -->
         <link rel="stylesheet" type="text/css" href="lib/famous/core/famous.css" />
         <!-- endbuild -->
         
         <!-- build:css(app/) css/app.css -->
-        <link rel="stylesheet" type="text/css" href="styles/app.css" />
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
         <!-- bower:css -->
         <!-- endbower -->
         <!-- endbuild -->
@@ -30,6 +31,13 @@
         <!-- process:remove:dist -->
         <script type="text/javascript" src="lib/requirejs/require.js" data-main="src/requireConfig"></script>
         <!-- /process -->
+
+        <script type="text/javascript">
+            require.config({
+                baseUrl: './src/'
+            });
+            require(['main']);
+        </script>
     </head>
     <body></body>
 </html>

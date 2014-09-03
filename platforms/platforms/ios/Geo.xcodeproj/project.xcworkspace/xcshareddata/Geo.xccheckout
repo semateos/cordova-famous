@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7B8DF25-F025-4D58-AA5B-7109BD0DBD44</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Geo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E19D1442-A7AD-475F-932D-9EE772ECD499</key>
+		<string>ssh://github.com/semateos/cordova-famous.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/platforms/ios/Geo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E19D1442-A7AD-475F-932D-9EE772ECD499</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/semateos/cordova-famous.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E19D1442-A7AD-475F-932D-9EE772ECD499</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E19D1442-A7AD-475F-932D-9EE772ECD499</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cordova-famous</string>
+		</dict>
+	</array>
+</dict>
+</plist>
